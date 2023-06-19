@@ -15,22 +15,6 @@
 
 using namespace std;
 
-//void UpdateBranches(std::vector<Branch*> branches, int& current, std::vector<sf::Vector2f> posVec)
-//{
-//    current = (current + 1) % branches.size();
-//    for (int i = 0; i < branches.size(); i++)
-//    {
-//        int index = (current + i) % branches.size();
-//        branches[index]->SetPosition(posVec[i]);
-//
-//        // 나뭇가지 방향찾기
-//        if (i == branches.size() - 1)
-//        {
-//            Sides side = (Sides)Utils::RandomRange(0, 2);
-//            branches[index]->SetSide(side);
-//        }
-//    }
-//}
 
 int main()
 {
